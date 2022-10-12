@@ -1,0 +1,44 @@
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.cost {
+  color: rgb(255, 6, 6);
+  background-color: white;
+  margin-left: 10px;
+}
+
+.break {
+  flex-basis: 100%;
+  background-color: white;
+  border: none;
+  margin-top: 15px;
+}
+
+#number {
+  font-size: 3em;
+  color: rgb(230, 8, 52);
+  border: 3px dotted rgb(0, 0, 0);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#idlenum {
+  font-size: 2em;
+  color: rgb(31, 0, 207);
+  border: 3px dotted rgb(0, 0, 0);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.container {
+  text-align: center;
+}
+
+.idle-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
